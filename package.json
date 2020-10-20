@@ -1,0 +1,22 @@
+{
+  "name": "shortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "shorten": "netlify-shortener"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strawberrylemonade/shortner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strawberrylemonade/shortner/issues"
+  },
+  "homepage": "https://lemonade.fyi",
+  "devDependencies": {
+    "netlify-shortener": "^2.3.0"
+  }
+}
