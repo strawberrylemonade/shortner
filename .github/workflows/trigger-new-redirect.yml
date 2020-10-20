@@ -30,6 +30,11 @@ jobs:
 
       - name: Install NPM modules
         run: npm i
+      
+      - uses: actions/checkout@v2
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
 
       # Runs a set of commands using the runners shell
       - name: Add a new shortcode to redirects file
